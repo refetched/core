@@ -1,5 +1,5 @@
-import { JSONObject, Key } from '.';
+import { Keys } from '.';
 
-export type Entry<T extends JSONObject> = {
-  [K in Key<T>]-?: [K, T[K]];
-}[Key<T>];
+export type Entry<T extends object> = {
+  [K in Keys<T>]-?: [K, T[K]];
+}[Keys<T>];

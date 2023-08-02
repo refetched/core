@@ -1,3 +1,3 @@
 import { JSONValue } from '.';
 
-export type JSONObject = { [Key in string]?: JSONValue };
+export type JSONObject = { [K in string]?: JSONValue };

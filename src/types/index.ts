@@ -5,7 +5,7 @@ export * from './Enumerable';
 export * from './JSONArray';
 export * from './JSONObject';
 export * from './JSONValue';
-export * from './Key';
+export * from './Keys';
 export * from './Maybe';
 export * from './Nullable';
 export * from './Optional';
