@@ -8,6 +8,7 @@ export * from './JSONValue';
 export * from './Keys';
 export * from './Maybe';
 export * from './Nullable';
+export * from './OneKey';
 export * from './Optional';
 export * from './RequiredKeys';
 export * from './Subset';
