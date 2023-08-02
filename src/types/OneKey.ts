@@ -1,5 +1,7 @@
+import { Keys } from '.';
+
 export type OneKey<T extends object> = {
-  [K in keyof T]: Record<K, T[K]> & Partial<Record<Exclude<keyof T, K>, never>> extends infer O
-    ? { [Q in keyof O]: O[Q] }
+  [K in Keys<T>]: Record<K, T[K]> & Partial<Record<Exclude<Keys<T>, K>, never>> extends infer O extends object
+    ? { [Q in Keys<O>]: O[Q] }
     : never;
-}[keyof T];
+}[Keys<T>];
