@@ -1,7 +1,7 @@
 {
   "name": "@refetched/core",
   "description": "",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Riley Conrardy",
   "license": "ISC",
   "main": "dist/index.js",
@@ -16,6 +16,7 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@refetched/core-types": "^1.0.0",
     "@rollup/plugin-commonjs": "24.0.1",
     "@rollup/plugin-node-resolve": "15.0.1",
     "@rollup/plugin-typescript": "11.0.0",
