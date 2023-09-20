@@ -1,7 +1,7 @@
-export * from './decodeObject';
-export * from './encodeObject';
-export * from './getEntriesFromObject';
-export * from './getObjectFromEntries';
-export * from './getObjectFromString';
-export * from './getKeysFromObject';
-export * from './getStringFromObject';
+export { decodeObject } from './decodeObject';
+export { encodeObject } from './encodeObject';
+export { getEntriesFromObject } from './getEntriesFromObject';
+export { getObjectFromEntries } from './getObjectFromEntries';
+export { getObjectFromString } from './getObjectFromString';
+export { getKeysFromObject } from './getKeysFromObject';
+export { getStringFromObject } from './getStringFromObject';

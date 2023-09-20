@@ -1,2 +1,2 @@
-export * from './decodeString';
-export * from './encodeString';
+export { decodeString } from './decodeString';
+export { encodeString } from './encodeString';

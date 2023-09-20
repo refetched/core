@@ -1,2 +1,2 @@
-export * from './decodeBuffer';
-export * from './encodeBuffer';
+export { decodeBuffer } from './decodeBuffer';
+export { encodeBuffer } from './encodeBuffer';

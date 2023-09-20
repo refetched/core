@@ -1,5 +1,5 @@
 import { Encoded } from '@refetched/core-types';
-import { decodeString } from '../..';
+import { decodeString } from '..';
 
 describe('GIVEN the function', () => {
   let mockDecoded: string;
